@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>list</title>
+</head>
+<body>
+<p><a href="Masjid Cina Melaka.html" target="contents">Masjid Cina Melaka</a></p>
+<p><a href="Masjid Besar Djenne.html" target="contents">Masjid Besar Djenne</a></p>
+<p><a href="Masjid Rijeka.html" target="contents">Masjid Rijeka</a></p>
+<p><a href="Masjid Kashti Wali.html" target="contents">Masjid Kashti Wali</a></p>
+<br></br>
+
+<p>Masjid yang manakah paling menarik bagi anda?</p>
+<select>
+<option value="Masjid Cina Melaka">Masjid Cina Melaka</option>
+<option value="Masjid Besar Djenne">Masjid Besar Djenne</option>
+<option value="Masjid Rijeka">Masjid Rijeka</option>
+<option value="Masjid Kashti Wali">Masjid Kashti Wali</option>
+</select>
+
+<form method='post'>
+<br>Sebab:<br/>
+<textarea name='komen' id='komen'></textarea><br/>
+<input type='hidden'name='articlied'
+id='articlied' value='<?echo $_GET["id"];?'/>
+<input type='submit' value='Hantar'/>
+</form>
+</body>
+</html>
